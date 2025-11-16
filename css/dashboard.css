@@ -1,0 +1,164 @@
+.dashboard-header {
+  background: #5d0067;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-header h2 {
+  font-size: 20px;
+  font-family: 'Black Mango', cursive;
+  margin: 0;
+}
+
+.btn-logout {
+  background: white;
+  color: #5d0067;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-logout:hover {
+  background: #f5e9ce;
+}
+
+.dashboard-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.status-card {
+  background: #f5e9ce;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-card .icon {
+  width: 32px;
+  height: 32px;
+  background: #5d0067;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.status-card .text {
+  flex: 1;
+}
+
+.status-card .text h3 {
+  font-size: 16px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.status-card .text p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.dashboard-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dashboard-card .subtitle {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 15px;
+}
+
+.dashboard-card .item {
+  background: #f5e9ce;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background 0.3s ease;
+}
+
+.dashboard-card .item:last-child {
+  margin-bottom: 0;
+}
+
+.dashboard-card .item:hover {
+  background: #fff8e2;
+}
+
+.dashboard-card .item h4 {
+  font-size: 16px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.dashboard-card .item p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.notification {
+  background: #fff8e2;
+  border: 1px solid #f5e9ce;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.notification .icon {
+  width: 24px;
+  height: 24px;
+  background: #5d0067;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.notification p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}

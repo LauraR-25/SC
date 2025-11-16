@@ -1,0 +1,123 @@
+.pilares-section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pilares-section h2 {
+  font-size: 36px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pilares-section .subtitle {
+  font-size: 20px;
+  font-family: 'Agrandir', serif;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pilares-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.misión {
+  background: #fff8e2;
+  border: 1px solid #f5e9ce;
+}
+
+.visión {
+  background: #cfc3ff;
+  border: 1px solid #c8bfe7;
+}
+
+.valor {
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+.card .icon {
+  width: 48px;
+  height: 48px;
+  background: #5d0067;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-family: 'Black Mango', cursive;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  font-family: 'Open Sauce', sans-serif;
+}
+
+.valores-section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.valores-section h2 {
+  font-size: 36px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.valores-grid .card {
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.valores-grid .card h3 {
+  font-size: 18px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0;
+}
+
+.valores-grid .card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+  font-family: 'Open Sauce', sans-serif;
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,172 @@
+.oferta-section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.oferta-section h2 {
+  font-size: 36px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.oferta-section .subtitle {
+  font-size: 20px;
+  font-family: 'Agrandir', serif;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  background: #f5e9ce;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  flex: 1;
+  text-align: center;
+}
+
+.tab-btn.active {
+  background: white;
+  color: #5d0067;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.programas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.programa-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.programa-card:hover {
+  transform: translateY(-5px);
+}
+
+.programa-card h3 {
+  font-size: 20px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.programa-card .edad {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.area-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.area-card:hover {
+  transform: translateY(-5px);
+}
+
+.area-card .icon {
+  margin-bottom: 1rem;
+}
+
+.eventos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.evento-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.evento-card:hover {
+  transform: translateY(-5px);
+}
+
+.evento-card .icon {
+  width: 48px;
+  height: 48px;
+  background: #5d0067;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.evento-card .evento-info {
+  flex: 1;
+}
+
+.evento-card h3 {
+  font-size: 20px;
+  font-family: 'Black Mango', cursive;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.evento-card .fecha {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.evento-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
