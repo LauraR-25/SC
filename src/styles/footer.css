@@ -1,0 +1,54 @@
+.main-footer {
+  background: #5d0067;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-family: 'Black Mango', cursive;
+  margin: 0 0 10px;
+  color: white;
+}
+
+.footer-col p,
+.footer-col .social-links a {
+  font-size: 14px;
+  color: #fff8e2;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+.social-links a {
+  color: #fff8e2;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #cfc3ff;
+  border-top: 1px solid #cfc3ff;
+  padding-top: 1rem;
+}

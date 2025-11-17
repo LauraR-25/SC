@@ -1,0 +1,23 @@
+.dashboard {
+  background: #f5e9ce;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dashboard-main {
+  display: grid;
+  gap: 1rem;
+}
+
+.status-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
